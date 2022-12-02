@@ -80,3 +80,30 @@ body {
   border-color: #3882f6;
   margin-top: 15px;
 }
+
+.content {
+  margin-bottom: 50px;
+}
+
+.content .container {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  margin-top: 30px;
+}
+
+.content .box-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px 10px;
+}
+
+.content p {
+  text-align: center;
+}
