@@ -45,3 +45,38 @@ body {
   text-decoration: none;
   color: #e5e7eb;
 }
+
+.header {
+  background-color: #1f2937;
+  padding: 30px 10px 90px;
+}
+
+.header .container {
+  justify-content: space-between;
+}
+
+.header .container > * {
+  flex: 1;
+}
+
+.header h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.header p {
+  color: #e5e7eb;
+  line-height: 1.2;
+}
+
+.header button {
+  padding: 0.5em 1.5em;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  font-size: 1em;
+  border-color: #3882f6;
+  margin-top: 15px;
+}
