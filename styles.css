@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 .container {
-  max-width: 1100px;
+  max-width: 950px;
   margin: 0 auto;
   display: flex;
 }
@@ -106,4 +106,34 @@ body {
 
 .content p {
   text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 80px 10px;
+}
+.quote .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.quote .container > p {
+  text-align: center;
+  padding: 7px;
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+.quote .author {
+  display: flex;
+  justify-content: flex-end;
+  width: 93%;
+}
+
+.quote .author p {
+  font-weight: bold;
+  font-size: 20px;
 }
