@@ -8,6 +8,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+button {
+  cursor: pointer;
+}
 .container {
   max-width: 950px;
   margin: 0 auto;
@@ -136,4 +140,37 @@ body {
 .quote .author p {
   font-weight: bold;
   font-size: 20px;
+}
+
+.action {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.action .container {
+  justify-content: space-around;
+  background-color: #3882f6;
+  padding: 30px 0;
+  border-radius: 0.6em;
+  align-items: center;
+}
+
+.action .message {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.action p {
+  color: #e5e7eb;
+}
+
+.action button {
+  max-height: 2.3em;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: bold;
+  border-color: #f9faf8;
+  padding: 0.5em 1.7em;
+  border-radius: 0.5em;
 }
